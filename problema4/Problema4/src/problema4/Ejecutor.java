@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package problema1;
+package problema4;
 
 /**
  *
@@ -15,14 +15,13 @@ public class Ejecutor {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Cheques c1 = new Cheques();
+        c1.calcularComision();
 
-        Calificaciones alum1 = new Calificaciones();
-        alum1.calcularPromedio();
+        Cheques c2 = new Cheques("Paúl Balcázar", "Banco de Loja", 98700.93);
+        c2.calcularComision();
 
-        Calificaciones alum2 = new Calificaciones("Sandra Albán", 9.4, 7.3,8.9);
-        alum2.calcularPromedio();
-
-        System.out.printf("%s\n%s\n", alum1, alum2);
+        System.out.printf("%s\n%s\n", c1, c2);
     }
 
 }

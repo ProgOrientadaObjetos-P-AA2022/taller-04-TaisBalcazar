@@ -23,12 +23,12 @@ public class Calificaciones {
         materiaTres = 10;
     }
 
-    public Calificaciones(String nom, double uno, double dos, double tres) {
-        nombre = nom;
-        materiaUno = uno;
-        materiaDos = dos;
-        materiaTres = tres;
-       } 
+    public Calificaciones(String a, double b, double c, double d) {
+        nombre = a;
+        materiaUno = b;
+        materiaDos = c;
+        materiaTres = d;
+    }
 
     public void establecerNombre(String c) {
         nombre = c;

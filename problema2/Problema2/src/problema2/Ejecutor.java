@@ -19,12 +19,7 @@ public class Ejecutor {
         Sueldos e1 = new Sueldos();
         e1.calcularSueldoTotal();
 
-        String nombre = "Sandra";
-        String apellido = "Albán";
-        double sueldoBasico = 700.3;
-        String cedula = "1102924073";
-
-        Sueldos e2 = new Sueldos(nombre, apellido, sueldoBasico, cedula);
+        Sueldos e2 = new Sueldos("Sandra", "Albán", 700.3, "1102924073");
         e2.calcularSueldoTotal();
 
         System.out.printf("%s\n%s\n", e1, e2);

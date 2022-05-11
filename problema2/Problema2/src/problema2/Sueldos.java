@@ -23,11 +23,11 @@ public class Sueldos {
         cedula = "1150083242";
     }
 
-    public Sueldos(String nom, String ape, double sue, String ced) {
-        nombre = nom;
-        apellido = ape;
-        sueldoBasico = sue;
-        cedula = ced;
+    public Sueldos(String a, String b, double c, String d) {
+        nombre = a;
+        apellido = b;
+        sueldoBasico = c;
+        cedula = d;
     }
 
     public void establecerNombre(String c) {
